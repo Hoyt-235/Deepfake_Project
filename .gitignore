@@ -6,13 +6,12 @@ netD_best.pth
 netD_opt_best.pth
 netG_best.pth
 netG_opt_best.pth
-netG_wgan_gp_best.pth
 .json
 __pycache__/
 .pkl
 stylegan3/
 ml_data/
 FF++/
-Images/
 FF++_download.py
 splits.json
+IMAGEN_old.ipynb

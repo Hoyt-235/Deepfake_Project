@@ -78,7 +78,7 @@ class DepthwiseSeparable(nn.Module):
 class CNN(nn.Module):
     def __init__(self, num_classes=2, use_bottleneck=True, use_se=True):
         super().__init__()
-        block = BottleneckDW if use_bottleneck else DepthwiseSeparable  # or swap in your separable
+        block = BottleneckDW if use_bottleneck else DepthwiseSeparable  
 
         # stem + 4 strided blocks: output goes [B,512,8,8]
         self.layer0 = nn.Sequential(
